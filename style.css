@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    text-decoration: none;
+    overflow-x: hidden;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    justify-content: space-around;
+    overflow-x: hidden;
+
+}
+
+strong {
+    color: #FF8C00;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu i {
+    color: #fff;
+    transition: all 0.1s ease-in;
+    padding: 10px;
+}
+
+.menu i:hover {
+    color: #FF3600;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+}
+
+
+
+.divBusca {
+    padding: 1px 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.divBusca i {
+    color: #FF3600;
+    cursor: pointer;
+}
+
+.divBusca input {
+    border: none;
+    color: #FF3600;
+    background-color: transparent;
+}
+
+.divBusca input:focus-visible {
+    outline: none;
+}
+
+
+.pesquisa {
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    height: 40px;
+}
+
+#search {
+    font-size: 20px;
+}
+
+
+
+.conteudo {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(assets/img/close-up-de-bola-de-basquetebol-velha.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basquete {
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.basquete h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: #FF3600;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.basquete p {
+    font-weight: 700;
+    width: 50%;
+    font-size: 20px;
+}
+
+.section-historia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.historia {
+    color: #fff;
+    background-color: #000;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.historia h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #FF3600;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.historia p {
+    font-weight: 700;
+    width: 60%;
+    font-size: 20px;
+}
+
+
+
+.regras-fundamentos {
+    background-image: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.9)), url(assets/img/tiro-de-jogador-de-basquete-jovem.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.regras-fundamentos h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #FF3600;
+    padding-top: 15vh;
+    font-size: 50px;
+}
+
+.regras-fundamentos p {
+    width: 40vw;
+    font-size: 25px;
+    padding-bottom: 50px;
+    color: #fff;
+    padding-top: 10vh;
+
+}
+
+.regras p {
+    padding-right: 50px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.fundamentos p {
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.posicao-termos {
+    background-color: #000;
+}
+
+.posicao-termos h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #FF3600;
+    padding-top: 15vh;
+    font-size: 50px;
+}
+
+.posicao-termos p {
+    color: #fff;
+    width: 95vw;
+    font-size: 20px;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    font-weight: 700;
+
+}
+
+.termos p {
+    color: #fff;
+    width: 90%;
+    font-size: 21px;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    font-weight: 700;
+}
+
+.nba p {
+    text-align: center;
+}
+
+.section-nba {
+    background-color: #000;
+}
+
+.section-nba h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #FF3600;
+    padding-top: 15vh;
+    font-size: 50px;
+}
+
+.section-nba p {
+    color: #fff;
+    width: 95vw;
+    font-size: 20px;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    font-weight: 700;
+    text-align: center;
+}
+
+.div-footer {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    justify-content: center;
+    padding-left: 5vw;
+    justify-content: space-around;
+}
+
+.div-footer h3 {
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+}
+
+.div-footer {
+    background-color: #0c0c0c;
+
+}
+
+.final {
+    padding-top: 22px;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .basquete p {
+        font-size: 27px;
+    }
+
+    .historia p {
+        font-size: 27px;
+        width: 86%;
+    }
+
+    .regras p {
+        font-size: 27px;
+    }
+
+    .regras-fundamentos h1 {
+        font-size: 45px;
+    }
+
+    .fundamentos p {
+        font-size: 27px;
+    }
+
+    .posicao-termos p {
+        font-size: 27px;
+        padding-top: inherit;
+    }
+
+    .posicao-termos h1 {
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    .div-footer {
+        background-color: #0c0c0c;
+        font-size: 23px;
+    }
+
+    .regras-fundamentos p {
+        width: 45vw;
+        padding-top: 5vh;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .basquete p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        width: 85%;
+    }
+
+    .historia p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .regras p {
+        font-size: 20px;
+    }
+
+    .fundamentos p {
+        font-size: 20px;
+        width: 96%;
+    }
+
+    .posicao-termos p {
+        font-size: 20px;
+    }
+
+    .section-nba p {
+        font-size: 20px;
+        padding-top: 23px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+
+
+    body {
+        background-color: #000;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .divBusca {
+        display: none;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .basquete {
+        text-align: inherit;
+        overflow: hidden;
+        padding-top: 8px;
+    }
+
+    .basquete h1 {
+        font-size: 45px;
+    }
+
+    .conteudo {
+        height: inherit;
+        padding-top: 9px;
+    }
+
+    .basquete p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        width: 85%;
+    }
+
+    .historia {
+        text-align: initial;
+    }
+
+    .historia p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+        width: 85%;
+
+    }
+
+    .historia h1 {
+        font-size: 45px;
+    }
+
+    .regras-fundamentos {
+        flex-direction: column;
+    }
+
+    .regras-fundamentos h1 {
+        font-size: 40px;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+
+    .regras p {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 25px;
+        text-align: left;
+        padding-top: 30px;
+
+    }
+
+    .fundamentos p {
+        width: 90%;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 25px;
+        text-align: left;
+        padding-top: 26px;
+    }
+
+    .regras-fundamentos h1 {
+        font-size: 40px;
+        padding-right: 15px;
+    }
+
+
+    .posicao-termos p {
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 25px;
+        padding-top: 27px;
+    }
+
+    .posicao-termos h1 {
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    .termos p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+        padding-top: 18px;
+    }
+
+    .termos h1 {
+        padding-top: 40px;
+    }
+
+    .section-nba {
+        height: 140vh;
+    }
+
+    .section-nba h1 {
+        font-size: 40px;
+        padding-top: 5vh;
+    }
+
+    .section-nba p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        height: inherit;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+
+
+    .div-footer {
+        background-color: #0c0c0c;
+        padding: 22px;
+        font-size: inherit;
+    }
+
+    .nba {
+        text-align: center;
+    }
+}
